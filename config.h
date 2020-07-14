@@ -40,8 +40,8 @@ static const unsigned int alphas[][3]      = {
 };
 
 /* tagging */
-//static const char *tags[] = { "一", "二", "三", "四", "五", "六", "七", "八", "九" };
-static const char *tags[] = { "\uf120", "\uf7ae", "\uf121", "\uf04b", "\ue62e", "\uf251", "\ue727", "\uf537", "\uf684" };
+static const char *tags[] = { "一", "二", "三", "四", "五", "六", "七", "八", "九" };
+//static const char *tags[] = { "\uf120", "\uf7ae", "\uf121", "\uf04b", "\ue62e", "\uf251", "\ue727", "\uf537", "\uf684" };
 
 static const Rule rules[] = {
 	/* xprop(1):
@@ -85,19 +85,19 @@ static const char *dmenucmd[] = { "dmenu_run", "-m", dmenumon, "-fn", dmenufont,
 static const char *termcmd[]  = { "st", NULL };
 static const char *browsercmd[]  = { "google-chrome-stable", NULL };
 
-static const char *upvol[]   = { "/home/david/scripts/vol-up.sh",  NULL };
-static const char *downvol[] = { "/home/david/scripts/vol-down.sh",  NULL };
-static const char *mutevol[] = { "/home/david/scripts/vol-toggle.sh",  NULL };
+static const char *upvol[]   = { "/home/icepig/scripts/vol-up.sh",  NULL };
+static const char *downvol[] = { "/home/icepig/scripts/vol-down.sh",  NULL };
+static const char *mutevol[] = { "/home/icepig/scripts/vol-toggle.sh",  NULL };
 
-static const char *wpcmd[]  = { "/home/david/scripts/wp-change.sh", NULL };
-static const char *sktogglecmd[]  = { "/home/david/scripts/sck-tog.sh", NULL };
+static const char *wpcmd[]  = { "/home/icepig/scripts/wp-change.sh", NULL };
+static const char *sktogglecmd[]  = { "/home/icepig/scripts/sck-tog.sh", NULL };
 static const char scratchpadname[] = "scratchpad";
 static const char *scratchpadcmd[] = { "st", "-t", scratchpadname, "-g", "80x24", NULL };
 
-static const char *setcolemakcmd[]  = { "/home/david/scripts/setxmodmap-colemak.sh", NULL };
-static const char *setqwertycmd[]  = { "/home/david/scripts/setxmodmap-qwerty.sh", NULL };
+static const char *setcolemakcmd[]  = { "/home/icepig/scripts/setxmodmap-colemak.sh", NULL };
+static const char *setqwertycmd[]  = { "/home/icepig/scripts/setxmodmap-qwerty.sh", NULL };
 
-static const char *suspendcmd[]  = { "/home/david/scripts/suspend.sh", NULL };
+static const char *suspendcmd[]  = { "/home/icepig/scripts/suspend.sh", NULL };
 
 static const char *screenshotcmd[] = { "flameshot", "gui", NULL };
 
